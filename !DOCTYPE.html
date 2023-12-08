@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+        </style>
+        <script>
+            // PARAMETER
+
+            function startfunctie(){
+                console.log("werkt");
+                tweedefunctie();
+                            // argument
+                derdefunctie(7);
+                derdefunctie(24);
+            }
+            function tweedefunctie(){
+                console.log("tweede functie");
+            }
+                                // parameter
+            function derdefunctie(eengetal){
+                console.log("dit is een getal" + eengetal);
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" value="klik hier" onclick="startfunctie()" />
+    </body>
+</html>
